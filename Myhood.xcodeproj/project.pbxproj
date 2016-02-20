@@ -15,6 +15,7 @@
 		F0E04DF11C78746C007E78B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E04DEF1C78746C007E78B2 /* LaunchScreen.storyboard */; };
 		F0E04DFC1C78746C007E78B2 /* MyhoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04DFB1C78746C007E78B2 /* MyhoodTests.swift */; };
 		F0E04E071C78746C007E78B2 /* MyhoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E061C78746C007E78B2 /* MyhoodUITests.swift */; };
+		F0E04E161C7875C2007E78B2 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E151C7875C2007E78B2 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F0E04E021C78746C007E78B2 /* MyhoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyhoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E04E061C78746C007E78B2 /* MyhoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhoodUITests.swift; sourceTree = "<group>"; };
 		F0E04E081C78746C007E78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E04E151C7875C2007E78B2 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F0E04DE21C78746C007E78B2 /* Myhood */ = {
 			isa = PBXGroup;
 			children = (
+				F0E04E141C7875B5007E78B2 /* Model */,
 				F0E04DE31C78746C007E78B2 /* AppDelegate.swift */,
 				F0E04DE51C78746C007E78B2 /* ViewController.swift */,
 				F0E04DE71C78746C007E78B2 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				F0E04E081C78746C007E78B2 /* Info.plist */,
 			);
 			path = MyhoodUITests;
+			sourceTree = "<group>";
+		};
+		F0E04E141C7875B5007E78B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E04E151C7875C2007E78B2 /* PostData.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E04DE61C78746C007E78B2 /* ViewController.swift in Sources */,
+				F0E04E161C7875C2007E78B2 /* PostData.swift in Sources */,
 				F0E04DE41C78746C007E78B2 /* AppDelegate.swift in Sources */,
 				F0E04DEC1C78746C007E78B2 /* Myhood.xcdatamodeld in Sources */,
 			);

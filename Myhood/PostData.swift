@@ -9,14 +9,26 @@
 import Foundation
 
 class PostData {
-    private var imagePath:String!
-    private var title:String!
-    private var postdes:String!
+    private var _imagePath:String!
+    private var _title:String!
+    private var _postdes:String!
+    
+    var imagePath:String{
+        return _imagePath
+    }
+    
+    var title:String{
+        return _title
+    }
+    
+    var postDes:String{
+        return _postdes
+    }
     
     init(imgPath:String, title:String, description:String){
-        self.imagePath = imgPath
-        self.title = title
-        self.postdes = description
+        self._imagePath = imgPath
+        self._title = title
+        self._postdes = description
     }
     
     

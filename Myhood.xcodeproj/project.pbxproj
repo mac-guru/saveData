@@ -16,6 +16,8 @@
 		F0E04DFC1C78746C007E78B2 /* MyhoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04DFB1C78746C007E78B2 /* MyhoodTests.swift */; };
 		F0E04E071C78746C007E78B2 /* MyhoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E061C78746C007E78B2 /* MyhoodUITests.swift */; };
 		F0E04E161C7875C2007E78B2 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E151C7875C2007E78B2 /* PostData.swift */; };
+		F0E04E191C788704007E78B2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E181C788704007E78B2 /* PostCell.swift */; };
+		F0E04E1C1C7892AA007E78B2 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E04E1B1C7892AA007E78B2 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F0E04E061C78746C007E78B2 /* MyhoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyhoodUITests.swift; sourceTree = "<group>"; };
 		F0E04E081C78746C007E78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0E04E151C7875C2007E78B2 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F0E04E181C788704007E78B2 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F0E04E1B1C7892AA007E78B2 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +105,11 @@
 		F0E04DE21C78746C007E78B2 /* Myhood */ = {
 			isa = PBXGroup;
 			children = (
+				F0E04E1A1C789245007E78B2 /* Controller */,
+				F0E04E171C7886E5007E78B2 /* view */,
 				F0E04E141C7875B5007E78B2 /* Model */,
 				F0E04DE31C78746C007E78B2 /* AppDelegate.swift */,
-				F0E04DE51C78746C007E78B2 /* ViewController.swift */,
-				F0E04DE71C78746C007E78B2 /* Main.storyboard */,
 				F0E04DED1C78746C007E78B2 /* Assets.xcassets */,
-				F0E04DEF1C78746C007E78B2 /* LaunchScreen.storyboard */,
 				F0E04DF21C78746C007E78B2 /* Info.plist */,
 				F0E04DEA1C78746C007E78B2 /* Myhood.xcdatamodeld */,
 			);
@@ -137,6 +140,25 @@
 				F0E04E151C7875C2007E78B2 /* PostData.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F0E04E171C7886E5007E78B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F0E04DEF1C78746C007E78B2 /* LaunchScreen.storyboard */,
+				F0E04DE71C78746C007E78B2 /* Main.storyboard */,
+				F0E04E181C788704007E78B2 /* PostCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		F0E04E1A1C789245007E78B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0E04DE51C78746C007E78B2 /* ViewController.swift */,
+				F0E04E1B1C7892AA007E78B2 /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +299,8 @@
 				F0E04E161C7875C2007E78B2 /* PostData.swift in Sources */,
 				F0E04DE41C78746C007E78B2 /* AppDelegate.swift in Sources */,
 				F0E04DEC1C78746C007E78B2 /* Myhood.xcdatamodeld in Sources */,
+				F0E04E1C1C7892AA007E78B2 /* AddPostVC.swift in Sources */,
+				F0E04E191C788704007E78B2 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
